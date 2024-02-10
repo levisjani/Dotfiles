@@ -65,7 +65,7 @@ alias cheat='curl https://cheat.sh/$@'
 alias python='python3'
 wt () { curl wttr.in/"$1"; }
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
-alias genpass='python /Users/levisjani/Developer/Scripts/cli/genpasswd.py'
+alias genpass='python /Users/$user/Developer/Scripts/cli/genpasswd.py'
 
 
 #   ---------------------------
@@ -117,7 +117,7 @@ ex ()
 
 geo ()
 {
-	echo $1 | mmdbresolve -f /Users/levisjani/Developer/Maxmind/GeoLite2-City.mmdb
+	echo $1 | mmdbresolve -f /Users/$user/Developer/Maxmind/GeoLite2-City.mmdb
 }
 
 #   ---------------------------------------
