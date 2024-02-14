@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/vagrant/www/wordpress-default/wp-content/plugins/wp-job-manager-broadbean'
+let g:netrw_dirhist_2='/vagrant/www/wordpress-default/wp-content/plugins/wp-job-manager-broadbean/inc'
+let g:netrw_dirhist_3='/vagrant/www/wordpress-default/wp-content/themes/ucm'
+let g:netrw_dirhist_4='/vagrant/www/wordpress-default/wp-content/themes/ucm/inc'
